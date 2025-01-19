@@ -7,7 +7,6 @@ import UserProfile from "@/components/ui/UserProfile";
 
 const SingleUser = ({ params }: any) => {
     const { data, isLoading } = useGetSingleUserQuery(params.id);
-    console.log(data);
 
     return (
         <Container>

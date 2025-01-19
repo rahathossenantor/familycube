@@ -42,6 +42,7 @@ export type TUser = {
     bloodGroup?: TBloodGroup;
     smartId?: string;
     nonSmartId?: string;
+    oldPassport?: string;
     currentPassport?: string;
     mobile?: string;
     email?: string;
